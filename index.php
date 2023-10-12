@@ -1,4 +1,4 @@
-﻿<?php include ('data.php');?>
+
 
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -89,3 +89,4 @@
 		</div>
 	</div>
 <?php include ('footer.php');?>
+﻿<?php include ('data.php');?>

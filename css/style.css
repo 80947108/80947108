@@ -37,7 +37,7 @@ body {
 .card {
   position: relative;
   transform-style: preserve-3d;
-  width: 800px;
+  width: 300px;
   height: 450px;
   border-radius: 30px;
   box-shadow:  20px 20px 60px var(--shadow-right-bottom-color), 

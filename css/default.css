@@ -1,0 +1,124 @@
+/*主体样式*/
+body {
+	background-color: #fff0f5;
+	color: #333;
+	font:100% "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+}
+a:-webkit-any-link {
+	text-decoration:none;
+}/*未访问链接*/
+a:link {
+	color:#b399ff;
+}
+/*已访问链接*/
+a:visited {
+	color:#696969;
+}
+/*鼠标移动到链接上*/
+a:hover {
+	color:#ff80cb;
+}
+/*鼠标点击链接时*/
+a:active {
+	color:#e6cfe6;
+}
+/*h1-h6标题样式*/
+h1 {
+	font-size: 2.25em;
+	margin:-0.5% 0% 1% 0%;
+	padding: 4px 0px;
+	background-color: #ffd9e6;
+	box-shadow: 0px 0px 10px 4px #ffd9e6;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.75em;
+}
+h4 {
+	font-size: 1.5em;
+}
+h5 {
+	font-size: 1.25em;
+	margin:-0.5% 0% 0.6% 0%;
+	padding: 4px 0px;
+	background-color: #ffd9e6;
+	box-shadow: 0px 0px 10px 4px #ffd9e6;
+}
+h6 {
+	font-size: 1em;
+}
+/*段落样式*/
+p {
+	background-color: #ffd9e6;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 6px #ffd9e6;
+}
+.text404 {
+	font-size: 18px;
+	padding: 2px 0px;
+	margin: 18.6% 33%;
+	font-style: italic;
+}
+.p1 {/*段落1样式*/
+	width: 36px;
+	height: 16px;
+	font-size: 14px;
+	margin:0.25% 0% 0.25% 0%;
+	padding: 4px 8px;
+	background-color: #ffd9e6;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 4px #ffd9e6;
+	border: 0.1mm solid #333;
+}
+.p2 {/*段落2样式*/
+	font-size: 14px;
+	margin:0.125% 0.25% 0.125% 0.25%;
+	padding: 4px 8px;
+	cursor: pointer;
+	background-color: #ffd9e6;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 4px #ffd9e6;
+	border: 0.1mm solid #333;
+}
+/*文本区域样式*/
+textarea {
+	background-color: #fff0f5;
+	resize: none;
+	font:80% "Comic Sans MS", cursive, sans-serif;
+	margin:0.125% 0% 0.125% 0%;
+	padding: 3px 6px;
+	box-shadow: 0px 0px 10px 4px #ffd9e6;
+	border: medium solid #ffd9e6;
+	border-radius: 16px;
+}
+textarea:focus {
+	  outline: none;
+}
+/*表单样式*/
+input {
+	width: 16px;
+	height: 16px;
+	margin:0.25% 0% 0.25% 0%;
+	cursor: pointer;
+}
+input:focus {
+	  outline: none;
+}
+/*按钮样式*/
+button {
+	margin:0.125% 0% 0.125% 0%;
+	padding: 4px 8px;
+	background-color: #ffd9e6;
+	font:100% "Comic Sans MS", cursive, sans-serif;
+	font-size: 14px;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px 4px #ffd9e6;
+	border: 0.1mm solid #333;
+}
+button:focus {
+	  outline: none;
+}

@@ -4,6 +4,9 @@
       "runtime": "vercel-php@0.5.3"
     }
   },
+   "routes": [
+    { "src": "/ZB/(.*)",  "dest": "api/$1.php" }
+     ]
   "rewrites": [
     { "source": "/(.*)", "destination": "/404.html" }
   ]

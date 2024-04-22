@@ -5,6 +5,7 @@
     }
   },
    "routes": [
-    { "src": "/FC",  "dest": "api/FC.php" }
+    { "src": "/(.*).php",  "dest": "api/$1.php" },
+    { "src": "/(.*).txt",  "dest": "txt/$1.txt" }
      ]
 }

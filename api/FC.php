@@ -12,7 +12,7 @@ function read(...$filelist) {
     return $list;
 }
 
-$list = read('xjj.txt');
+$list = read('https://80947108.eu.org/xjj.txt');
 $url = $list[array_rand($list)];
 
 header("Location: {$url}");

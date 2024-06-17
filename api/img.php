@@ -1,6 +1,6 @@
 <?php
 //存有链接的文件名
-$filename = "https://80947108.eu.org/img.txt";
+$filename = "./txt/img.txt";
 if(!file_exists($filename)){
 	die('文件不存在');
 }
